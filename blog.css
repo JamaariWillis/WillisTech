@@ -5593,20 +5593,15 @@ body {
 .stars .animation.stars-small {
     animation: animStar 30s linear infinite;
     z-index: 0;
-    opacity: .2;
-    background: url(/space.jpg);
-   
+    opacity: .05;
+    background: url(/space.jpg)
 }
 
 .stars .animation.stars-large {
     animation: animStar 15s linear infinite;
     z-index: 1;
     opacity: .2;
-    background: url(/space3.webp);
-    background-position: center;
-    background-size: contain;
-    
-
+    background: url(/space3.webp)
 }
 
 @keyframes animStar {
@@ -5643,13 +5638,13 @@ header .background {
     right: 0;
     left: 0;
     height: 80px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0,0,0,.5);
     z-index: 0;
     transform: translateY(0);
     transform-origin: top left;
     transition: transform ease-out 250ms;
     transition-delay: 0ms;
-    backdrop-filter: blur(6px)
+    backdrop-filter: blur(10px)
 }
 
 header .container {
@@ -5683,7 +5678,7 @@ header .right a:last-child {
 header nav {
     display: flex;
     flex: 1;
-    justify-content: right;
+    justify-content: center
 }
 
 header nav a:first-child {
@@ -5768,7 +5763,7 @@ header a:hover::after,header a.active::after {
 }
 
 .teaser.prompt-ide .gradient {
-    background: linear-gradient(135deg, rgba(0,0,0,.8), rgba(4, 32, 68, 0.6))
+    background: linear-gradient(135deg, rgba(0,0,0,.8), rgba(4,40,68,.6))
 }
 
 .teaser.prompt-ide .hero {
@@ -5776,11 +5771,11 @@ header a:hover::after,header a.active::after {
 }
 
 .teaser.careers .gradient {
-    background: linear-gradient(135deg, rgba(0,0,0,.6), rgba(25, 76, 135, 0.199))
+    background: linear-gradient(135deg, rgba(0,0,0,.6), rgba(25,135,84,.3))
 }
 
 .teaser.models .gradient {
-    background: linear-gradient(135deg, rgba(0, 83, 160, 0.205), rgba(0,0,0,.6));
+    background: linear-gradient(135deg, rgba(0,121,160,.45), rgba(0,0,0,.6));
     backdrop-filter: blur(15px)
 }
 
@@ -5802,8 +5797,8 @@ footer {
     padding: 80px 0;
     position: relative;
     z-index: 10;
-    background: rgba(94, 100, 153, 0.226);
-    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,.4);
+    backdrop-filter: blur(15px);
     font-size: .875rem;
     color: #fff
 }
@@ -6272,7 +6267,7 @@ footer a:hover {
 }
 
 .page-teaser.models .gradient {
-    background: linear-gradient(135deg, rgba(94, 100, 153, 0.027), rgba(0, 96, 160, 0.082))
+    background: linear-gradient(135deg, rgba(0,0,0,.6), rgba(0,121,160,.85))
 }
 
 .page-teaser .container {
