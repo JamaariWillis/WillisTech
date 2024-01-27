@@ -5683,7 +5683,7 @@ header .right a:last-child {
 header nav {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: right;
 }
 
 header nav a:first-child {
