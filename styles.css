@@ -5683,7 +5683,7 @@ header .right a:last-child {
 header nav {
     display: flex;
     flex: 1;
-    justify-content: right;
+    justify-content: center;
 }
 
 header nav a:first-child {
@@ -6320,6 +6320,10 @@ footer a:hover {
     to {
         opacity: 1
     }
+}
+
+.animated, .title {
+    text-align: center;
 }
 
 .loader {
